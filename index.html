@@ -2,23 +2,33 @@
 <html lang="en">
     <head>
         <title>About Me</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <style>
+            li {
+                font-family: 'Times New Roman', Times, serif;
+                color: rgb(218, 152, 10);
+            }
+            .important {
+                color: red;
+            }
+        </style>
     </head>
     <body>
-        <h1>About Me</h1>
+        <h1 style="background-color:rgb(73, 150, 73)"> About Me </h1>
         <img src="pic_of_me.jpg" alt="Image of Me" width="200px" />
         <br>
-        <h4>Hey everyone, my name is Justin Yang and I'm from 
+        <h4 class="important">Hey everyone, my name is Justin Yang and I'm from 
             Northville, Michigan
         </h4>
         <h4>I'm a first year at the University of Michigan studying Computer Science</h4>
-        <h4>Hobbies I enjoy doing:</h4>
+        <h4 id="list-header">Hobbies I enjoy doing:</h4>
         <ul>
             <li>Running and working out</li>
             <li>Tennis</li>
             <li>Snowboarding</li>
             <li>Ukelele</li>
         </ul>
-        <h4>Here are some other fun facts about me:</h4>
+        <h4 id="list-header">Here are some other fun facts about me:</h4>
         <ul>
             <li>I've lived internationally for 3 years</li>
             <li>I have moved 5 different times</li>
